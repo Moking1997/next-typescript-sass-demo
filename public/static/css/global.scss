@@ -1,0 +1,62 @@
+:global {
+  .global-container {
+    margin: 0 auto;
+    color: $color;
+  }
+
+  html,
+  body,
+  * {
+    font-family: "Microsoft YaHei", "微软雅黑", "Microsoft JhengHei", "华文细黑",
+      STHeiti, MingLiu;
+  }
+  html {
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    background: #fff no-repeat center bottom;
+    background-attachment: inherit;
+    min-width: 320px;
+  }
+
+  .test {
+    border: 1px solid red;
+  }
+  .hide {
+    display: none !important;
+  }
+  .opacity {
+    opacity: 0;
+  }
+  .black {
+    color: #111;
+  }
+
+  body {
+    overflow-x: hidden;
+  }
+
+  body,
+  a {
+    color: #111;
+    margin: 0;
+    padding: 0;
+  }
+  img {
+    display: block;
+  }
+
+  a,
+  ul,
+  li {
+    display: block;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  a {
+    display: block;
+    text-decoration: none;
+  }
+}
